@@ -11,9 +11,9 @@ def batch_badge_creator(array)
 end
 
 def assign_rooms(array)
-  badge_messages = []
+  room_messages = []
   array.each_with_index { |item, index|
-  badge_messages[index] = "Hello, my name is #{item}."
+  room_messages[index] = "Hello, #{item}! You'll be assigned to room #{index + 1}!"
 }
-  badge_messages
+  room_messages
 end
