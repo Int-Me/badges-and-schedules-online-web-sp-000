@@ -7,4 +7,3 @@ def batch_badge_creator(array)
   puts "Hello, my name is #{item}."
 }
 end
-  
